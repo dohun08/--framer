@@ -52,4 +52,7 @@ export const slide : Slide[] = [
         preload="auto"
     />
 ), webHead : ["https://framerusercontent.com/images/qWc0YjBDYXu0oBdCEt8vOY9bMgc.png?scale-down-to=512", "https://framerusercontent.com/images/vDmkbXGST6CQjcRn8ozNUzKusZI.png?scale-down-to=512"], webHeadLeft : "https://framerusercontent.com/images/PFxRG1rAwRBFhiJaPavqiQNI4I.png?scale-down-to=1024", webHeadRight : "https://framerusercontent.com/images/WdPJDGQXrIC1zjahS5eUEA7TbXY.png?scale-down-to=1024"},
+    {id : 7, span : "Animations", h3 : "Make your designs move,<br/> without moving mountains.", learn : "Learn more", video :  (
+            <img width={600} src={Animation} alt={''}/>
+        ), webHead : ["https://framerusercontent.com/images/qWc0YjBDYXu0oBdCEt8vOY9bMgc.png?scale-down-to=512", "https://framerusercontent.com/images/vDmkbXGST6CQjcRn8ozNUzKusZI.png?scale-down-to=512"], webHeadLeft : "https://framerusercontent.com/images/PFxRG1rAwRBFhiJaPavqiQNI4I.png?scale-down-to=1024", webHeadRight : "https://framerusercontent.com/images/WdPJDGQXrIC1zjahS5eUEA7TbXY.png?scale-down-to=1024"},
 ]
