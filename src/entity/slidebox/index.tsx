@@ -1,5 +1,6 @@
 import * as S from './style.tsx'
-import type {Slide} from '../../pages/home/home.tsx'
+import {Slide} from "../../features/home/slide";
+
 export default function SlideBox({span, h3, learn, webHead, video, webHeadLeft, webHeadRight} : Slide){
     return (
         <S.Section4>
@@ -11,7 +12,7 @@ export default function SlideBox({span, h3, learn, webHead, video, webHeadLeft, 
             <S.Website>
                 <S.Wrap>
                     <S.WebHead>
-                        {webHead.map(item=><img src={item} alt={''}/>) }
+                        {webHead.map((item:string)=><img src={item} alt={''}/>) }
                     </S.WebHead>
                     {video}
                     <S.WebHeadLeft>

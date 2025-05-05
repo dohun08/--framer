@@ -75,7 +75,7 @@ export const SubText = styled.p<{duration: number}>`
     color: #8c8c8c;
     animation: ${move} ${(props) => props.duration}s ease-in-out forwards;
 `
-export const ButtonBox = styled.div<{duration: number}>`
+export const ButtonBox = styled.div<{duration?: number}>`
     animation: ${move} ${(props) => props.duration}s ease-in-out forwards;
     display: flex;
     width: 600px;
